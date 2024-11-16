@@ -1,3 +1,20 @@
+/**
+ * Universidad del Valle de Guatemala - Segundo Semestre 2024
+ * Programación Orientada a Objetos (POO)
+ * Proyecto Final
+ * 
+ * Clase Radio
+ * 
+ * La clase Radio gestiona las funcionalidades generales de un radio,
+ * incluyendo encendido/apagado, ajuste de volumen, cambio de modos 
+ * (Radio, Reproducción, Teléfono), gestión de bandas (FM/AM),
+ * manipulación de frecuencias y almacenamiento de emisoras.
+ * 
+ * @author Adriana Martínez
+ * Fecha de creación: 14/11/2024
+ * Última modificación: 15/11/2024
+ */
+
 import java.util.ArrayList;
 import java.util.List;
 
