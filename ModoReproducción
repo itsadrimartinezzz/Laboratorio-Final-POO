@@ -1,0 +1,36 @@
+/** 
+ * Universidad del Valle de Guatemala - Segundo Semestre 2024
+ * Programación Orientada a Objetos (POO)
+ * Laboratorio 4 
+ * 
+ * ModoReproduccion
+ * 
+ * Esta clase simula un modo de reproducción de música, permitiendo gestionar 
+ * listas de reproducción y cambiar canciones.
+ * 
+ * @autor Marjori Flores
+ * Fecha de creación: 15/11/2024 
+ * Última modificación: 15/11/2024 
+ */
+
+import java.util.ArrayList;
+import java.util.List;
+
+/**
+ * Clase que representa un modo de Reproducción de música, con funcionalidades para 
+ * seleccionar listas, cambiar canciones y reproducir la canción actual.
+ */
+public class ModoReproduccion {
+    private List<String> listaReproduccion; // Almacena la lista de canciones
+    private int cancionActual; // Índice de la canción que se está reproduciendo actualmente
+
+    /**
+     * Constructor que inicializa la lista de reproducción con canciones predeterminadas
+     * y establece el índice de la canción actual en 0.
+     */
+    public ModoReproduccion() {
+        this.listaReproduccion = new ArrayList<>();
+        this.cancionActual = 0;
+        listaReproduccion.add("Canción 1 - Autor 1 - 3:45 - Rock");
+        listaReproduccion.add("Canción 2 - Autor 2 - 4:12 - Pop");
+    }
