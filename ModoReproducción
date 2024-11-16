@@ -56,3 +56,13 @@ public class ModoReproduccion {
         }
         return listaReproduccion.get(cancionActual);
     }
+    /**
+     * Reproduce la canción actual de la lista de reproducción.
+     * @return La canción actual que se está escuchando.
+     */
+    public String escucharCancion() {
+        return listaReproduccion.get(cancionActual);
+    }
+}
+
+
