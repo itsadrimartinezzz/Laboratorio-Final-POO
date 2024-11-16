@@ -3,9 +3,21 @@ Programación Orientada a Objetos
 Adriana Martínez Fuentes
 Carnet: 24086
 =================================================*/
+/**
+ * Clase Main
+ * 
+ * La clase Main simula una interfaz de usuario para controlar un radio. 
+ * Ofrece opciones como encender y apagar el radio, ajustar el volumen, 
+ * cambiar entre modos (Radio, Reproducción, Teléfono), cambiar bandas (FM/AM),
+ * gestionar emisoras (guardar, cargar, seleccionar) y finalizar el programa.
+ * Utiliza colores ANSI para mejorar la experiencia visual en la consola.
+ * 
+ * @author Adriana Martínez
+ * Fecha de creación: 14/11/2024
+ * Última modificación: 15/11/2024
+ */
 
 import java.util.Scanner;
-
 
 public class Main {
     // Códigos ANSI para colores
