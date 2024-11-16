@@ -34,7 +34,7 @@ public class ModoTelefono {
         contactos.add("Maria Lopez");
         this.llamadaEnCurso = false;
     }
-/**
+     /**
      * Conecta el teléfono.
      * @return Mensaje indicando que el teléfono está conectado.
      */
@@ -57,3 +57,26 @@ public class ModoTelefono {
     public String mostrarContactos() {
         return "Contactos: " + contactos;
     }
+
+     /**
+     * Realiza una llamada a un contacto si está en la lista.
+     * @param nombre Nombre del contacto al que se quiere llamar.
+     * @return Mensaje indicando si la llamada se realizó o si no se encontró el contacto.
+     */
+    public String llamarContacto(String nombre) {
+        if (contactos.contains(nombre)) {
+            llamadaEnCurso = true; // Inicia la llamada
+            return "Llamando a: " + nombre;
+        }
+        return "Contacto no encontrado.";
+    }
+
+    /**
+     * Finaliza la llamada en curso.
+     * @return Mensaje indicando que la llamada ha terminado.
+     */
+    public String finalizarLlamada() {
+        llamadaEnCurso = false; // Termina la llamada
+        return "Llamada finalizada.";
+    }
+}
