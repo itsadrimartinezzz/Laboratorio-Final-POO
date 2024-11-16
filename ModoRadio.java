@@ -1,6 +1,21 @@
+/**
+ * Universidad del Valle de Guatemala - Segundo Semestre 2024
+ * Programación Orientada a Objetos (POO)
+ * Proyecto Final
+ * 
+ * Clase ModoRadio
+ * 
+ * La clase ModoRadio simula las funciones básicas de una radio. 
+ * Permite cambiar entre bandas (FM y AM), ajustar la frecuencia actual, 
+ * guardar emisoras y recuperarlas desde una lista.
+ * 
+ * @author Adriana Martinez 
+ * Fecha de creación: 14/11/2024 
+ * Última modificación: 15/11/2024
+ */
+
 import java.util.ArrayList;
 import java.util.List;
-
 
 public class ModoRadio {
     private String banda; // Representa la banda actual de la radio (FM o AM).
