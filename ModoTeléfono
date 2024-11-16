@@ -34,3 +34,26 @@ public class ModoTelefono {
         contactos.add("Maria Lopez");
         this.llamadaEnCurso = false;
     }
+/**
+     * Conecta el teléfono.
+     * @return Mensaje indicando que el teléfono está conectado.
+     */
+    public String conectarTelefono() {
+        return "Teléfono conectado.";
+    }
+
+    /**
+     * Desconecta el teléfono.
+     * @return Mensaje indicando que el teléfono está desconectado.
+     */
+    public String desconectarTelefono() {
+        return "Teléfono desconectado.";
+    }
+
+    /**
+     * Muestra la lista de contactos disponibles.
+     * @return Cadena con los contactos almacenados.
+     */
+    public String mostrarContactos() {
+        return "Contactos: " + contactos;
+    }
