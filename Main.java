@@ -1,7 +1,7 @@
 /*=================================================
 Programación Orientada a Objetos
-Adriana Martínez Fuentes
-Carnet: 24086
+Adriana Martínez Fuentes // Marjori Flores
+Carnet: 24086 // 24754
 =================================================*/
 
 import java.util.Scanner;
