@@ -1,0 +1,36 @@
+/** 
+ * Universidad del Valle de Guatemala - Segundo Semestre 2024
+ * Programación Orientada a Objetos (POO)
+ * Laboratorio 4 
+ * 
+ * ModoTelefono
+ * 
+ * Esta clase simula las funcionalidades básicas de un modo teléfono, incluyendo la gestión de contactos 
+ * y llamadas.
+ * 
+ * @author Marjori Flores
+ * Fecha de creación: 15/11/2024 
+ * Última modificación: 15/11/2024 
+ */
+
+import java.util.ArrayList;
+import java.util.List;
+
+/**
+ * Clase que representa un modo Teléfono con funcionalidades básicas de conexión, 
+ * gestión de contactos y llamadas.
+ */
+public class ModoTelefono {
+    private List<String> contactos;
+    private boolean llamadaEnCurso;
+
+    /**
+     * Constructor que inicializa la lista de contactos y establece que no hay 
+     * llamada en curso.
+     */
+    public ModoTelefono() {
+        this.contactos = new ArrayList<>();
+        contactos.add("Juan Perez");
+        contactos.add("Maria Lopez");
+        this.llamadaEnCurso = false;
+    }
